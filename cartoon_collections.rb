@@ -16,9 +16,9 @@ return  word.size<4
   end
 end
 
-def find_the_cheese(cheese)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
- cheese.find do |cheese|
-   array.include?(cheese_types)
+ array.find do |cheese|
+   cheese_types.include?(cheese)
   end
 end
