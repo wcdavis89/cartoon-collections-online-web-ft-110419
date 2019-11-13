@@ -22,7 +22,7 @@ def find_the_cheese(array)
  if  array.include?(cheese_types) do |item|
    p found_cheese << item
  end
-  else 
+  else array.
     puts found_cheese
   end
 end
