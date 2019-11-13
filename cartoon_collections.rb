@@ -20,7 +20,8 @@ def find_the_cheese(array)
   found_cheese=[]
   cheese_types = ["cheddar", "gouda", "camembert"]
  if  array.include?(cheese_types) do |item|
-   item
+   p item
+ end
   else 
     puts found_cheese
   end
